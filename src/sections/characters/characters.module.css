@@ -1,0 +1,15 @@
+.characters-container {
+  margin: 5rem 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 35% 35%;
+  gap: 30px;
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .characters-container {
+    grid-template-columns: 90%;
+    row-gap: 2rem;
+  }
+}

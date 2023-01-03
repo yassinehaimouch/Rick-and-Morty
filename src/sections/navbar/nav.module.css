@@ -1,0 +1,31 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.navbar img{
+  width: 150px;
+}
+
+.navbar ul{
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li a{
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #BFDE42;
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .navbar ul{
+    display: none;
+  }
+  .navbar{
+    justify-content: center;
+  }
+}

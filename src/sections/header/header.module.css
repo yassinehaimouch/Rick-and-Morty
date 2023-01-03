@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 6.3rem;
+  font-weight: 900;
+  margin-top: 12rem;
+  color: #42b4ca;
+}
+
+.container img {
+  position: absolute;
+  top: 50px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .container h1 {
+    font-size: 5rem;
+  }
+
+  .container img {
+    margin-top: 4rem;
+    width: 300px;
+  }
+}

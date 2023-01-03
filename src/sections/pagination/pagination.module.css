@@ -1,0 +1,36 @@
+.slider a {
+  cursor: pointer;
+  color: #42b4ca;
+}
+
+.container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.page-item {
+  color: #42b4ca;
+}
+
+.page-item:hover,
+.page-item:active {
+  color: #bfde42;
+}
+
+.page-selected {
+  color: white;
+}
+
+.active {
+  color: #bfde42;
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .container {
+    gap: 10px;
+  }
+}

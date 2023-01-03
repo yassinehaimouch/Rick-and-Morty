@@ -1,0 +1,20 @@
+.input-container{
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.input-container input{
+  height: 40px;
+  width: 400px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .input-container input{
+    width: 300px;
+  }
+}
