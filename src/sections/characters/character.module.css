@@ -39,6 +39,11 @@ h3 {
   gap: 50px;
 }
 
+.dead{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
   .container img {

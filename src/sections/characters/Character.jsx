@@ -4,7 +4,7 @@ import classes from "./character.module.css";
 const Character = (props) => {
   return (
     <div className={classes.container}>
-      <img src={props.image} alt="img" />
+      <img src={props.image} alt="img" className={props.isDead ? classes.dead : ""}/>
 
       <div className={classes.details}>
         <div className={classes.item}>

@@ -32,6 +32,7 @@ const Characters = () => {
               status={item.status}
               species={item.species}
               locationName={item.location.name}
+              isDead={item.status === 'Dead'}
             />
           ))}
       </div>
