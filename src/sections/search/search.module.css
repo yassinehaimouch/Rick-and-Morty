@@ -1,6 +1,7 @@
 .input-container{
   text-align: center;
   margin-top: 5rem;
+  max-width: 1600px;
 }
 
 .input-container input{

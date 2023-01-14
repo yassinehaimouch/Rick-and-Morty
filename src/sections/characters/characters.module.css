@@ -4,6 +4,7 @@
   justify-content: center;
   grid-template-columns: 35% 35%;
   gap: 30px;
+  max-width: 1600px;
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
