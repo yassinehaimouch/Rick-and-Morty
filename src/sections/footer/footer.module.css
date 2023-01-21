@@ -1,6 +1,7 @@
 footer{
   height: 200px;
   background-color: #0D1117;
+  margin: 0 auto;
   margin-top: 5rem;
   display: flex;
   flex-direction: column;

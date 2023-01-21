@@ -1,5 +1,5 @@
 .characters-container {
-  margin: 5rem 0;
+  margin: 5rem auto;
   display: grid;
   justify-content: center;
   grid-template-columns: 35% 35%;

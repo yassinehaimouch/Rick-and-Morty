@@ -4,6 +4,7 @@
   align-items: center;
   padding: 1rem 4rem;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 .navbar img{
